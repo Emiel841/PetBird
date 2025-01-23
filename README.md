@@ -21,11 +21,12 @@ pip install pygame
    
 2. **Care for Your Pet**:
    The pet will have various statuses:
+   Click till the egg breaks and your creature is born!
    - **Hunger**: If hunger goes below 50, the pet will be hungry.
    - **Dirty**: If the pet becomes too dirty, it can die.
    - **Sickness**: The pet can become sick at random times, when the pet is sick it consumes double the food. You can cure it once it gets sick.
 
-3. **Pet Interaction**:
+4. **Pet Interaction**:
    - Feed the pet to increase its hunger and gain XP.
    - Wash the pet to reduce dirt and gain XP.
    - Cure the pet if it's sick to make it healthy again.
