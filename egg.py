@@ -26,7 +26,6 @@ class Egg(pygame.sprite.Sprite):
                 self.kill()
                 KidPet(self.groups, self.rect.center, self.screen)
 
-
     def clicked(self):
         mouse_pos = pygame.mouse.get_pos()
         mouse_buttons = pygame.mouse.get_just_pressed()

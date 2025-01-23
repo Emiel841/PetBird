@@ -24,7 +24,7 @@ class KidPet(pygame.sprite.Sprite):
         self.prev_dirt_tick = pygame.time.get_ticks()
         self.hunger_time = 1000
         self.dirt_time = 1000
-        self.sick_time = random.randint(50000, 100000)
+        self.sick_time = random.randint(10000, 50000)
         self.prev_sick_tick = pygame.time.get_ticks()
         self.xp = 0
         self.max_xp = 300
@@ -112,6 +112,8 @@ class KidPet(pygame.sprite.Sprite):
         if button_clicked == "cure" and self.is_sick:
             print("cure")
             self.is_sick = False
+            self.sick_time = random.randint(10000, 50000)
+            self.prev_sick_tick = pygame.time.get_ticks()
 
 
         self.animate(dt)
